@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia Inmobiliaria - Catálogo de Propiedades</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Imagenes/1497618989-3_85123.webp">
+</head>
+<body>
+
+    <header id="encabezado">
+        <h1 class="titulo-principal">Catálogo de Propiedades</h1>
+    </header>
+
+    <section id="catalogo-propiedades">
+        <div class="tarjeta-propiedad">
+            <img src="Imagenes/tessa-edmiston-t1rycmptPQU-unsplash.jpg" alt="Imagen de la propiedad 1" class="imagen-propiedad">
+            <h2 class="titulo-propiedad">Casa en la Playa</h2>
+            <p class="descripcion-propiedad">Hermosa casa frente al mar, perfecta para vacaciones familiares.</p>
+            <p class="precio-propiedad">$250,000</p>
+            <button class="btn-solicitar">Solicitar más información</button>
+        </div>
+
+        <div class="tarjeta-propiedad">
+            <img src="Imagenes/emily-wang-6x_u-OHg7gw-unsplash.jpg" alt="Imagen de la propiedad 2" class="imagen-propiedad">
+            <h2 class="titulo-propiedad">Apartamento en la Ciudad</h2>
+            <p class="descripcion-propiedad">Moderno apartamento en el corazón de la ciudad con vista panorámica.</p>
+            <p class="precio-propiedad">$180,000</p>
+            <button class="btn-solicitar">Solicitar más información</button>
+        </div>
+
+        <div class="tarjeta-propiedad">
+            <img src="Imagenes/josh-hild-vl05z6rjMaU-unsplash (1).jpg" alt="Imagen de la propiedad 3" class="imagen-propiedad">
+            <h2 class="titulo-propiedad">Cabaña en las Montañas</h2>
+            <p class="descripcion-propiedad">Acogedora cabaña rodeada de naturaleza, ideal para escapadas de fin de semana.</p>
+            <p class="precio-propiedad">$120,000</p>
+            <button class="btn-solicitar">Solicitar más información</button>
+        </div>
+    </section>
+
+    <section id="solicitud-informacion">
+        <h2 class="titulo-formulario">Solicitar más información</h2>
+        <form action="#" method="post" id="formulario-solicitud">
+            <div class="campo-formulario">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="campo-formulario">
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+
+            <div class="campo-formulario">
+                <label for="consulta">Consulta:</label>
+                <textarea id="consulta" name="consulta" rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-enviar">Enviar Solicitud</button>
+        </form>
+    </section>
+
+</body>
+</html>
